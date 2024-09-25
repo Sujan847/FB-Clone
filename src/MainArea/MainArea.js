@@ -3,6 +3,9 @@ import './MainArea.css';
 import { FaMedrt, FaFontAwesomeFlag, FaFacebookMessenger, FaAngleDown, FaUserFriends, FaSearch, FaGrin, FaRegThumbsUp, FaCommentAlt, FaRegShareSquare } from 'react-icons/fa';
 import { MdVideoCall, MdMoreHoriz } from 'react-icons/md';
 import { AiFillFileImage } from 'react-icons/ai';
+
+import { Link,NavLink } from "react-router-dom";
+
 function MainArea() {
     return (
         <div className="Main">
@@ -26,7 +29,7 @@ function MainArea() {
                 </div>
                 <div className="Pro">
                     <FaMedrt color="blue" fontSize="2rem" />
-                    <div>COVID-19 Information Center</div>
+                    <div><Link to="/covidinfo">COVID-19 Information Center</Link></div>
                 </div>
                 <div className="Pro">
                     <FaFacebookMessenger color="green" fontSize="2rem" />
