@@ -1,0 +1,43 @@
+.covidheader h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+.covidpage img{
+    margin-left:200px ;
+    width: 70%;
+    border:1px solid red;
+}
+
+.covidinfo{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 30px;
+}
+.infopara1{
+    width: 900px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: justify;
+    background-color: white;
+    
+}
+.infopara2{
+    width: 900px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: justify;
+    background-color: white;
+}
+.infopara3{
+    width: 900px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: justify;
+    background-color: white;
+}

@@ -7,6 +7,7 @@
     width: 21%;
     left:0;
     flex-wrap: wrap;
+    
 }
 .Profile{
     display: flex;
@@ -72,7 +73,7 @@
 .Contacts{
     font-size: 1.6rem;
     font-weight: 550;
-    padding-left: 1rem;
+    padding-left: 80px;
 }
 .icons{
     display: flex;
@@ -124,6 +125,7 @@
     height: 25rem;
     width: 80%;
     margin-left: 5%;
+    padding-left: 90px;
 }
 .Post{
     margin-top: 5%;
@@ -132,6 +134,7 @@
     justify-content: flex-start;
     background-color: white;
     margin-left: 0;
+   
 }
 .Post > div{
     margin-left: 2px;

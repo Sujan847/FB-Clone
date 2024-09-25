@@ -25,7 +25,7 @@ function LoginPage(){
           <input type="Password"placeholder="Password"/>
           <br></br>
           <button className="btn">
-          <Link to="/HeaderArea">LogIn</Link>
+          <Link to="/">LogIn</Link>
             </button>
             </div>
         <div className="forget">

@@ -7,6 +7,7 @@ import Login from './Loginpage/Loginpage';
 // import SignUp from './login-signup/SignUp'; // Sign Up component 
 import HeaderArea from './HeaderArea/HeaderArea'; // Header component
 import CoivdInfo from './CoivdInfo/CovidInfo';
+import MainArea from './MainArea/MainArea';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     
       <div className="App">
         <Routes>
-          <Route path="/" element={<HeaderArea />}/>
+          <Route path="/" element={<MainArea></MainArea>}  />
           <Route path="/HeaderArea" element={<HeaderArea />}/>
           {/* Route for Login */}
           <Route path="/login" element={<Login />} />

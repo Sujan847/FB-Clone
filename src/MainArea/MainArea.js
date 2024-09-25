@@ -5,9 +5,12 @@ import { MdVideoCall, MdMoreHoriz } from 'react-icons/md';
 import { AiFillFileImage } from 'react-icons/ai';
 
 import { Link,NavLink } from "react-router-dom";
+import HeaderArea from "../HeaderArea/HeaderArea";
 
 function MainArea() {
     return (
+        <>
+        <HeaderArea/>
         <div className="Main">
 
             <div className="Rside">
@@ -101,8 +104,8 @@ function MainArea() {
                         <br></br>
                         Picture
                     </div>
-                    {<div className="Story">
-                        <img src="/image/home.jpeg" alt="IMG" style={{ height: "60px", width: "50px", borderRadius: "60%" }} />
+                    <div className="Story">
+                        <img src="/image/IMG_3279.PNG" alt="IMG" style={{ height: "60px", width: "50px", borderRadius: "60%" }} />
                         <br></br>
                         <br></br>
                         <br></br>
@@ -110,7 +113,7 @@ function MainArea() {
                         <br></br>
                         <br></br>
                         Picture
-                    </div>}
+                    </div>
                 </div>
                 <div className="message">
                     <div className="text">
@@ -133,6 +136,93 @@ function MainArea() {
                                     <div>Felling/activity</div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div className="Posted">
+                        <div className="poster">
+                            <div className="Simplilearn">
+                                <img src="/image/simplilearn.jpeg" alt="Img" style={{ height: "50px", width: "50px", borderRadius: "50%" }} />
+                                Simplilearn
+                                <div className="update"> Updated his cover image.</div>
+                            </div>
+                            <div className="edit"><MdMoreHoriz fontSize="1.5rem" /></div>
+                        </div>
+                        <div className="caption">
+                            Please Like, Comment and Subscribe to our YouTube Channel.
+                        </div>
+                        <br></br>
+                        <div className="FacebookImg">
+                            <img src="/image/pic1.jpeg" alt="dp" style={{ height: "auto", width: "100%" }} />
+                        </div>
+                        <div className="Comment">
+                            <div className="Like">
+                                <FaRegThumbsUp color="grey" />Like
+                            </div>
+                            <div className="Like">
+                                <FaCommentAlt color="grey" />Comment
+                            </div>
+                            <div className="Like">
+                                <FaRegShareSquare color="grey" />Share
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="Posted">
+                        <div className="poster">
+                            <div className="Simplilearn">
+                                <img src="/image/simplilearn.jpeg" alt="Img" style={{ height: "50px", width: "50px", borderRadius: "50%" }} />
+                                Simplilearn
+                                <div className="update"> Updated his cover image.</div>
+                            </div>
+                            <div className="edit"><MdMoreHoriz fontSize="1.5rem" /></div>
+                        </div>
+                        <div className="caption">
+                            Please Like, Comment and Subscribe to our YouTube Channel.
+                        </div>
+                        <br></br>
+                        <div className="FacebookImg">
+                            <img src="/image/pic1.jpeg" alt="dp" style={{ height: "auto", width: "100%" }} />
+                        </div>
+                        <div className="Comment">
+                            <div className="Like">
+                                <FaRegThumbsUp color="grey" />Like
+                            </div>
+                            <div className="Like">
+                                <FaCommentAlt color="grey" />Comment
+                            </div>
+                            <div className="Like">
+                                <FaRegShareSquare color="grey" />Share
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="Posted">
+                        <div className="poster">
+                            <div className="Simplilearn">
+                                <img src="/image/simplilearn.jpeg" alt="Img" style={{ height: "50px", width: "50px", borderRadius: "50%" }} />
+                                Simplilearn
+                                <div className="update"> Updated his cover image.</div>
+                            </div>
+                            <div className="edit"><MdMoreHoriz fontSize="1.5rem" /></div>
+                        </div>
+                        <div className="caption">
+                            Please Like, Comment and Subscribe to our YouTube Channel.
+                        </div>
+                        <br></br>
+                        <div className="FacebookImg">
+                            <img src="/image/pic1.jpeg" alt="dp" style={{ height: "auto", width: "100%" }} />
+                        </div>
+                        <div className="Comment">
+                            <div className="Like">
+                                <FaRegThumbsUp color="grey" />Like
+                            </div>
+                            <div className="Like">
+                                <FaCommentAlt color="grey" />Comment
+                            </div>
+                            <div className="Like">
+                                <FaRegShareSquare color="grey" />Share
+                            </div>
+
                         </div>
                     </div>
                     <div className="Posted">
@@ -188,28 +278,29 @@ function MainArea() {
                 </div>
                 <div className="concise">
                     <div className="Profilee">
-                        <img src="image/1.jpeg" alt="logo" style={{ height: "35px", padding: "1rem" }} />
+                        <img src="image/1.jpeg" alt="logo" style={{ height: "35px", paddingLeft:"100px", paddingTop:"35px"}} />
                         Anubhav Sharma
                     </div>
                     <div className="Profilee">
-                        <img src="image/2.jpeg" alt="logo" style={{ height: "35px", padding: "1rem" }} />
+                        <img src="image/2.jpeg" alt="logo" style={{ height: "35px", paddingLeft:"100px", paddingTop:"15px" }} />
                         Anuragini
                     </div>
                     <div className="Profilee">
-                        <img src="image/3.jpeg" alt="logo" style={{ height: "35px", padding: "1rem" }} />
+                        <img src="image/3.jpeg" alt="logo" style={{ height: "35px", paddingLeft:"100px", paddingTop:"15px" }} />
                         Mayank
                     </div>
                     <div className="Profilee">
-                        <img src="image/1.jpg" alt="logo" style={{ height: "35px", padding: "1rem" }} />
+                        <img src="image/1.jpg" alt="logo" style={{ height: "35px", paddingLeft:"100px", paddingTop:"15px" }} />
                         Anjali
                     </div>
                     <div className="Profilee">
-                        <img src="image/pic1.jpeg" alt="logo" style={{ height: "35px", padding: "1rem" }} />
+                        <img src="image/pic1.jpeg" alt="logo" style={{ height: "35px", paddingLeft:"100px",paddingTop:"15px" }} />
                         Kaushal
                     </div>
                 </div>
             </div>
         </div>
+        </>
     )
 }
 export default MainArea
